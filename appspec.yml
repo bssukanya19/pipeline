@@ -7,6 +7,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: scripts/install.sh
+    - location: scripts/postscript.sh
       timeout: 300
       runas: root
